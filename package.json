@@ -1,0 +1,32 @@
+{
+  "name": "automatrust-demo-gltl",
+  "description": "a fake app for fake people",
+  "author": "James Gilles",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "prod": "brunch build --production"
+  },
+  "dependencies": {
+    "jshint-brunch": "^2.0.0",
+    "mithril": "^0.2.4",
+    "purecss": "^0.6.0",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "babel-brunch": "~6.0.0",
+    "babel-preset-es2015": "~6.3.13",
+    "brunch": "^2.4.0",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "express": "^4.13.4",
+    "javascript-brunch": "^2.0.0",
+    "uglify-js-brunch": "^2.0.0"
+  }
+}
