@@ -2,6 +2,7 @@ module.exports = {
   files: {
     javascripts: {
       joinTo: {
+        'vendor.js': 'node_modules/auto-reload-brunch/vendor/auto-reload.js'
       },
       entryPoints: {
         'app/initialize.js': 'app.js'
@@ -16,5 +17,8 @@ module.exports = {
   },
   plugins: {
     babel: {presets: ['es2015']}
+  },
+  server: {
+    path: 'server.js'
   }
 };
